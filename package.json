@@ -1,5 +1,5 @@
 {
-  "name": "mini-assert",
+  "name": "micro-assert",
   "version": "1.0.0",
   "description": "A tiny function for asserting tests",
   "main": "index.js",
@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aminmeyghani/mini-assert.git"
+    "url": "https://github.com/aminmeyghani/micro-assert.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/aminmeyghani/mini-assert/issues"
+    "url": "https://github.com/aminmeyghani/micro-assert/issues"
   },
-  "homepage": "https://github.com/aminmeyghani/mini-assert"
+  "homepage": "https://github.com/aminmeyghani/micro-assert"
 }
