@@ -1,6 +1,6 @@
 {
   "name": "micro-assert",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A tiny function for asserting tests",
   "main": "index.js",
   "scripts": {
