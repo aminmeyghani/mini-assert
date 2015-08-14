@@ -1,2 +1,2 @@
-# mini-assert
+# mini-assert [WIP]
 A tiny function for asserting tests
