@@ -16,15 +16,16 @@ function isArray (arr) {
 module.exports = function (desc, args, fn) {
   return function (result) {
     var ø = Object.create({});
-    var computed = (fn !== undefined) ? (fn.apply(ø, args)) : (args);
+    var computed = (fn !== undefined) ? (fn.apply(ø, args)) : undefined;
     var didPass;
-    if (isArray(args)) {
-     didPass = computed
-              .map(function (c, i) { return c === result[i];})
-              .filter(function (args) { return !args; }).length === 0;
+    if (isArray(computed)) {
+      didPass = computed
+               .map(function (c, i) { return c === result[i];})
+               .filter(function (args) { return !args; }).length === 0;
     } else {
       didPass = (computed === result);
     }
+
     console.log(desc);
     if (!didPass) {
       console.error('--> Failed: ', computed, '≠', result);
